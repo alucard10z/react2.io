@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrouserRouter as Router, Switch, Router} from "react-router-dom"
+import Navbar from './componentes/navbar';
+
 
 function App() {
   return (
+    <>
+        <Navbar/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +23,8 @@ function App() {
         </a>
       </header>
     </div>
+    </>
+
   );
 }
 
