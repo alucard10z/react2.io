@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Navbar from './componentes/navbar';
+
+import ItemListContainer from './container/ItemListContainer';
 
 
 function App() {
@@ -23,6 +26,7 @@ function App() {
         </a>
       </header>
     </div>
+    <ItemListContainer greeting={"hola bienvenido a pizza"}/>
     </>
 
   );

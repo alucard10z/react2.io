@@ -1,4 +1,6 @@
 import React from 'react'
+import CardWideget from './CardWidget'
+import "./styles.css"
 
 const Navbar = () => {
   return (
@@ -14,6 +16,7 @@ const Navbar = () => {
                         
                         
                     </ul>
+   <CardWideget />                 
 
   </div>
   )

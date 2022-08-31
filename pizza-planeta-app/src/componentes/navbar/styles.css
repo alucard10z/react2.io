@@ -1,0 +1,11 @@
+
+.list ul{
+    background-color: black;
+    position: relative;
+    align-items: center;
+}
+.list li{
+    color:black;
+    position: relative;
+    align-items: center;
+}
