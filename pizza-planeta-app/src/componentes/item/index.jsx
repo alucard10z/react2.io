@@ -1,5 +1,5 @@
 import "./styles.css";
-import React from 'react':
+import React from 'react';
 
 function item({info}) {
   return (
