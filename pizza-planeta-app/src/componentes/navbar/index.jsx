@@ -7,10 +7,10 @@ const Navbar = () => {
     <div>
 
 <ul className='list'>
-                        <li><a href="#header">Inicio</a></li>
-                        <li><a href="./galeria.html">Galeria</a></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Galeria</a></li>
                         <li><a href="#">Nosotros</a></li>
-                        <li><a href="./contacto.html" >Contacto</a></li>
+                        <li><a href="#" >Contacto</a></li>
                         
                         
                         
